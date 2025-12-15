@@ -11,6 +11,9 @@ data:
       - roboshop-trainee
       userarn: arn:aws:iam::200651372723:role/nandish
       username: nandish
+      - roboshop-trainee
+      userarn: arn:aws:iam::200651372723:role/suresh
+      username: suresh
       
 kind: ConfigMap
 metadata:
