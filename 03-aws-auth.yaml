@@ -11,6 +11,9 @@ data:
       - roboshop-trainee
       userarn: arn:aws:iam::200651372723:user/nandish
       username: nandish
+      - roboshop-admin
+      userarn: arn:aws:iam::200651372723:user/ramesh
+      username: ramesh
 kind: ConfigMap
 metadata:
   creationTimestamp: "2025-12-15T08:26:01Z"
