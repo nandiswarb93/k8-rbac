@@ -6,6 +6,6 @@ metadata:
   
 spec:
   containers:
-    - name: aws-cli
+    - name: amazon/aws-cli
       image: amazon/aws-cli
       commands : ["sleep", "10000"]
