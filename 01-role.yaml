@@ -7,3 +7,7 @@ rules :
 - apiGroups : [""] # indicates the core api groups
   resources : ["pods"]
   verbs : ["get", "watch", "list"]
+
+- apiGroups: ["rbac.authorization.k8s.io"]
+  resources: ["roles"]
+  verbs: ["get", "list"]
