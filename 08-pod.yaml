@@ -7,4 +7,4 @@ spec:
   containers:
   - name: aws-cli
     image: amazon/aws-cli
-    commands : ["sleep", "10000"]
+    command : ["sleep", "10000"]
