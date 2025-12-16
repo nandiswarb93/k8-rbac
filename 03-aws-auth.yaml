@@ -23,7 +23,8 @@ data:
       - roboshop-trainee
       userarn: arn:aws:iam::200651372723:user/rahim
       username: rahim
-    - roboshop-trainee
+    - groups:
+      - roboshop-trainee
       userarn: arn:aws:iam::200651372723:user/nandu
       username: nandu
 kind: ConfigMap
