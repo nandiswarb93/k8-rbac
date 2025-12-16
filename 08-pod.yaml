@@ -3,9 +3,8 @@ kind: Pod
 metadata:
   name: aws-cli
   namespace : roboshop
-  
 spec:
   containers:
-    - name: aws-cli
-      image: amazon/aws-cli
-      commands : ["sleep", "10000"]
+  - name: aws-cli
+    image: amazon/aws-cli
+    commands : ["sleep", "10000"]
