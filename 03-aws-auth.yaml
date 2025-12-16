@@ -16,11 +16,11 @@ data:
       userarn: arn:aws:iam::200651372723:user/ramesh
       username: ramesh
     - groups:
-      - roboshop-admin
+      - roboshop-trainee
       userarn: arn:aws:iam::200651372723:user/john
       username: john
     - groups:
-      - roboshop-admin
+      - roboshop-trainee
       userarn: arn:aws:iam::200651372723:user/rahim
       username: rahim
 kind: ConfigMap
