@@ -1,4 +1,4 @@
-apiVersion: apps/v1
+apiVersion: v1
 kind: Pod
 metadata:
   name: aws-cli
@@ -6,6 +6,6 @@ metadata:
   
 spec:
   containers:
-    - name: amazon/aws-cli
+    - name: aws-cli
       image: amazon/aws-cli
       commands : ["sleep", "10000"]
